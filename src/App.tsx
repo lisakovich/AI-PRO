@@ -297,9 +297,13 @@ const AiPartnersGrid = () => (
       <div className="grid grid-cols-2 gap-8 items-center justify-items-center max-w-lg mx-auto py-8">
         <img src="/logos/google-gemini.png" alt="Google Gemini" className="h-10 object-contain" />
         <img src="/logos/chatgpt.png" alt="ChatGPT" className="h-10 object-contain" />
+<main>
+  {isConsultantOpen && (
+    <div> className="container">
+      <div> className="flex">
         <img src="/logos/apple.png" alt="Apple" className="h-10 object-contain" />
         <img src="/logos/microsoft-copilot.png" alt="Copilot" className="h-10 object-contain" />
-      </div>
-    </div>
-  )}
-</main>
+     </div>
+   </div>
+ )}
+ </main>
