@@ -299,11 +299,11 @@ const AiPartnersGrid = () => (
         <img src="/logos/chatgpt.png" alt="ChatGPT" className="h-10 object-contain" />
 <main>
   {isConsultantOpen && (
-    <div> className="container">
-      <div> className="flex">
+    <div className="container">
+      <div className="flex">
         <img src="/logos/apple.png" alt="Apple" className="h-10 object-contain" />
         <img src="/logos/microsoft-copilot.png" alt="Copilot" className="h-10 object-contain" />
-     </div>
-   </div>
- )}
- </main>
+      </div>
+    </div>
+  )}
+</main>
